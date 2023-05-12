@@ -1,0 +1,91 @@
+.nav-link:hover, .nav-link:focus {
+    color: rgb(255 255 255);
+    border-bottom: 1px solid #fff;
+}
+.service img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.productgallery img:hover{
+border: 2px solid #333;
+padding: 3px;
+}
+.review{}
+.reviewstar{ margin-right: 10px;}
+.reviewstar i{font-size: 20px;}
+.review span{}
+.price{ margin: 10px 0px;}
+.price strong{}
+.price del{ 
+    font-weight: 400;
+    color: #777;
+    font-size: 25px;
+}
+.variant{max-width: 325px;
+    margin: auto;}
+.variantbox{}
+.variant div  label{
+    border: 1px solid #444;
+    margin-bottom: 12px;
+    padding: 6px 30px;
+    border-radius: 4px;
+    background: transparent;
+}
+.variant input{
+    display: none;
+}
+div  input:checked + label{
+    background-color: rgba(255, 166, 0, 0.806);
+}
+.accordion{
+    max-width: 400px;
+    margin: auto;
+   
+}
+.accordion button{
+    background-color: #8888882a;
+}
+.addToCart{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 470px;
+    margin: 10px auto;
+}
+.addToCart .counter{
+     flex-basis: 15%;
+     max-width: 30%;
+     padding: 5px;
+}
+.addToCart .counter input{ 
+    width: 100%;
+    padding: 8px 5px;
+   
+}
+.addToCart .cart{
+    flex-basis: 30%;
+    max-width: 30%;
+    padding: 5px;
+}
+.addToCart .cart button{
+    width: 100%;
+    padding: 8px 5px;
+    background-color: rgba(255, 140, 0, 0.794);
+    font-weight: 800;
+    color: white;
+
+}
+.iconbox{
+    padding: 15px 0;
+}
+.iconbox img{
+
+}
+.iconbox h3{
+    font-size: 23px;
+    margin: 10px 0 0;
+}
+.iconbox p{ margin: 0;
+    font-size: 17;
+}
